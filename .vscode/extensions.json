@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "ms-python.isort",
+    "charliermarsh.ruff",
+    "editorconfig.editorconfig",
+    "Cameron.vscode-pytest",
+    "github.vscode-pull-request-github",
+    "ms-python.python",
+    "ms-python.flake8",
+    "ms-python.vscode-pylance",
+    "streetsidesoftware.code-spell-checker",
+    "adpyke.codesnap",
+    "eamodio.gitlens",
+    "ms-python.debugpy",
+    "wayou.vscode-todo-highlight",
+    "Gruntfuggly.todo-tree",
+    // "trunk.io",
+    "esbenp.prettier-vscode",
+    "njpwerner.autodocstring"
+  ]
+}
