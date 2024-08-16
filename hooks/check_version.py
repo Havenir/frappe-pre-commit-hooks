@@ -13,6 +13,5 @@ def add_one(number):
     return number + 1
 
 
-if __name__ == "__main__":
-    result = add_one(100)
-    print(result)
+result = add_one(100)
+print(result)

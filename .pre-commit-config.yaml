@@ -48,6 +48,12 @@ repos:
       - id: interrogate
         args: [-vv, --config=pyproject.toml]
 
+  # testing frappe commit
+  - repo: https://github.com/Havenir/frappe-pre-commit-hooks.git
+    rev: 265a6c09ebad994fcb8404fe3eef7695b5111a56
+    hooks:
+      - id: frappe-app-version
+
 ci:
   autoupdate_schedule: weekly
   skip: []
