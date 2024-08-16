@@ -1,0 +1,8 @@
+- id: frappe-app-version
+  name: frappe-app-version
+  description: "`frappe-app-version` is a command-line utility for updating app versions of Frappe Framework projects."
+  entry: python hooks/check_version.py
+  language: python
+  types: [python]
+  require_serial: true
+  minimum_pre_commit_version: "2.9.2"

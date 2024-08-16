@@ -1,0 +1,16 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1 # Use the latest version
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+
+  - repo: https://github.com/Havenir/frappe-pre-commit-hooks.git
+    rev: main # Use the latest commit on the main branch
+    hooks:
+      - id: check-version
+        name: Check Version
+        entry: hooks/check_version.py
+        language: python
+        files: __init__.py

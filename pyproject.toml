@@ -1,0 +1,17 @@
+[project]
+name = "frappe-pre-commit"
+version = "0.0.1"
+authors = [
+  { name="Havenir Solutions", email="hello@havenir.com" },
+]
+description = "Pre commit hooks for frappe apps"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.interrogate]
+ignore-init-module = true
